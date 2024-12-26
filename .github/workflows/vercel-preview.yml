@@ -21,7 +21,10 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 9.4.0
-      
+          
+      - name: Install Dependencies
+        run: pnpm install
+          
       - name: Setup Vercel
         uses: amondnet/vercel-action@v25
         with:
@@ -30,3 +33,4 @@ jobs:
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-args: '--prod'
+          working-directory: ./
