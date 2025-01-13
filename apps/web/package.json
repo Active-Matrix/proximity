@@ -12,7 +12,7 @@
 		"@proximity/tailwind-config": "workspace:*",
 		"@proximity/ui": "workspace:*",
 		"@serwist/next": "^9.0.11",
-		"lucide-react": "^0.468.0",
+		"lucide-react": "^0.471.0",
 		"next": "15.1.2",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
