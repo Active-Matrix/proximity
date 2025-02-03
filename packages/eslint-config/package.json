@@ -17,7 +17,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "eslint-plugin-react-native": "^4.1.0",
+    "eslint-plugin-react-native": "^5.0.0",
     "eslint": "^8",
     "eslint-config-turbo": "latest",
     "eslint-config-next": "latest"
