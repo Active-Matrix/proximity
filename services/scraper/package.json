@@ -20,7 +20,7 @@
 	"dependencies": {
 		"@fastify/compress": "^8.0.1",
 		"@fastify/rate-limit": "^10.2.2",
-		"@sparticuz/chromium": "^131.0.1",
+		"@sparticuz/chromium": "^132.0.0",
 		"@types/cheerio": "^0.22.35",
 		"axios": "^1.7.9",
 		"cheerio": "^1.0.0",
