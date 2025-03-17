@@ -15,7 +15,7 @@
 		"@proximity/ui": "workspace:*",
 		"@serwist/next": "^9.0.11",
 		"axios": "^1.7.9",
-		"lucide-react": "^0.475.0",
+		"lucide-react": "^0.482.0",
 		"next": "15.1.7",
 		"nextjs-toploader": "^3.7.15",
 		"react": "^19.0.0",
