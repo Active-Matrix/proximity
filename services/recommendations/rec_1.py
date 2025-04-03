@@ -1,18 +1,38 @@
 import torch
 import torch.nn as nn
-from transformers import BertModel, BertTokenizer
+from transformers import DistilBertTokenizer, DistilBertModel
 from torchtune.modules import RotaryPositionalEmbeddings
 
-# Load BERT Model and Tokenizer
-tokenizer = BertTokenizer.from_pretrained("distilbert-base-uncased")
-model = BertModel.from_pretrained("distilbert-base-uncased")
+def load_BERT():
+    """
+    Load the BERT model and tokenizer.
+    """
+    tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+    model = DistilBertModel.from_pretrained("distilbert-base-uncased")
+    print("BERT Model and tokenizer loaded successfully.")
+    return tokenizer, model
 
 # Function to get sentence embedding
-def get_embedding(text):
+def get_embedding(text) -> torch.Tensor:
+
+    if len(text) == 0:
+        raise ValueError("Input list/str cannot be empty.")
+    
+    try:
+        # Load BERT model and tokenizer
+        tokenizer, model = load_BERT()
+
+    except Exception as e:
+        # Handle the error if the model fails to load
+        print(f"Error loading BERT model: {e}")
+        return  
+
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding="max_length", max_length=128)
+    
     with torch.no_grad():
         outputs = model(**inputs)
-    cls_embedding = outputs.pooler_output  # CLS token embedding (768-d vector)
+        cls_embedding = outputs.last_hidden_state[:, 0, :]  # CLS token embedding
+    
     return cls_embedding
 
 
@@ -94,10 +114,7 @@ class recommendationModel(nn.Module):
                                dropout=dropout)
 
     def forward(self, x):
-        """
-
-
-        """
+        
         x = get_embedding(x)
 
         x = x.view(self.batch, self.timesteps, self.num_heads, self.head_dim)

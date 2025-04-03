@@ -1,3 +1,5 @@
 # cache file
 .cache
 __pycache__
+
+sentencepiece/

@@ -1,2 +1,5 @@
 transformers
 faiss-cpu
+uvicorn
+fastapi
+torch
