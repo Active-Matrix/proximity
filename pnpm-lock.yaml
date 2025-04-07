@@ -93,8 +93,8 @@ importers:
         specifier: 15.2.4
         version: 15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0)
       nextjs-toploader:
-        specifier: ^3.8.15
-        version: 3.8.15(next@15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^3.8.16
+        version: 3.8.16(next@15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -216,7 +216,7 @@ importers:
         version: 15.2.4(eslint@8.57.1)(typescript@5.8.2)
       eslint-config-turbo:
         specifier: latest
-        version: 2.4.4(eslint@8.57.1)(turbo@2.4.4)
+        version: 2.5.0(eslint@8.57.1)(turbo@2.4.4)
       eslint-plugin-react-native:
         specifier: ^4.1.0
         version: 4.1.0(eslint@8.57.1)
@@ -3012,8 +3012,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-turbo@2.4.4:
-    resolution: {integrity: sha512-4w/heWywWkFw09a5MY5lCvb9suJlhBSkzNtGTwM5+zRif4rksubaMYy1pD0++5rqoDVcQax25jCrtii9ptsNDw==}
+  eslint-config-turbo@2.5.0:
+    resolution: {integrity: sha512-QJvZBEWDWQx1JyQCr0uwf4aQYhDSAGoHBdx+cPtpPzNEjZw16Ig8BglXxHZBh3I8/fI1U53cLgXwvb28BUZhPA==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -3173,8 +3173,8 @@ packages:
   eslint-plugin-tsdoc@0.2.17:
     resolution: {integrity: sha512-xRmVi7Zx44lOBuYqG8vzTXuL6IdGOeF9nHX17bjJ8+VE6fsxpdGem0/SBTmAwgYMKYB1WBkqRJVQ+n8GK041pA==}
 
-  eslint-plugin-turbo@2.4.4:
-    resolution: {integrity: sha512-myEnQTjr3FkI0j1Fu0Mqnv1z8n0JW5iFTOUNzHaEevjzl+1uzMSsFwks/x8i3rGmI3EYtC1BY8K2B2pS0Vfx6w==}
+  eslint-plugin-turbo@2.5.0:
+    resolution: {integrity: sha512-qQk54MrUZv0gnpxV23sccTc+FL3UJ8q7vG7HmXuS2RP8gdjWDwI1CCJTJD8EdRIDjsMxF0xi0AKcMY0CwIlXVg==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -4133,8 +4133,8 @@ packages:
       sass:
         optional: true
 
-  nextjs-toploader@3.8.15:
-    resolution: {integrity: sha512-f/ggKImRjI1EMk5af/4VBVpH49iEuDNQgSpRvTezEleqSl20lDCsQof2q9H2q59L/kBOOpR0xBzorjrHKe1mQg==}
+  nextjs-toploader@3.8.16:
+    resolution: {integrity: sha512-xiejFF9OQD8ovvHfrFhnEmRytvZtwIOY/mMtI9punOAACXpYpgC0y1afJ4DSIEmUi4Syy9A5BsFpUORTJ9z8Ng==}
     peerDependencies:
       next: '>= 6.0.0'
       react: '>= 16.0.0'
@@ -8011,10 +8011,10 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-config-turbo@2.4.4(eslint@8.57.1)(turbo@2.4.4):
+  eslint-config-turbo@2.5.0(eslint@8.57.1)(turbo@2.4.4):
     dependencies:
       eslint: 8.57.1
-      eslint-plugin-turbo: 2.4.4(eslint@8.57.1)(turbo@2.4.4)
+      eslint-plugin-turbo: 2.5.0(eslint@8.57.1)(turbo@2.4.4)
       turbo: 2.4.4
 
   eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.31.0):
@@ -8386,7 +8386,7 @@ snapshots:
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
 
-  eslint-plugin-turbo@2.4.4(eslint@8.57.1)(turbo@2.4.4):
+  eslint-plugin-turbo@2.5.0(eslint@8.57.1)(turbo@2.4.4):
     dependencies:
       dotenv: 16.0.3
       eslint: 8.57.1
@@ -9407,7 +9407,7 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nextjs-toploader@3.8.15(next@15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  nextjs-toploader@3.8.16(next@15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       next: 15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0)
       nprogress: 0.2.0
