@@ -72,8 +72,8 @@ importers:
         specifier: ^4.1.3
         version: 4.1.3(react-hook-form@7.54.2(react@19.0.0))
       '@ory/client':
-        specifier: ^1.16.7
-        version: 1.18.5
+        specifier: ^1.20.3
+        version: 1.20.3
       '@proximity/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/tailwind-config
@@ -1225,8 +1225,8 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@ory/client@1.18.5':
-    resolution: {integrity: sha512-w8S5J2dNJ2JayWhHfXL1ZPr8gvVeDSu6KuaQA4Q4WVj2erndOhcfSm9ITznSZlZk46BWJ3mw/PkVqPZsE5R47w==}
+  '@ory/client@1.20.3':
+    resolution: {integrity: sha512-hDa5drccnPanOwyseszGs4rISRT5kTG2xcg3LT8tezIOwrxN46O4VVxsLAt4/xI/EyliZsBjDf7CvT/rljwGvg==}
 
   '@parcel/watcher-android-arm64@2.5.1':
     resolution: {integrity: sha512-KF8+j9nNbUN8vzOFDpRMsaKBHZ/mcjEjMToVMJOhTozkDonQFFrRcfdLWn6yWKCmJKmdVxSgHiYvTCef4/qcBA==}
@@ -6029,7 +6029,7 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@ory/client@1.18.5':
+  '@ory/client@1.20.3':
     dependencies:
       axios: 1.8.4
     transitivePeerDependencies:
