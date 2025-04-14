@@ -19,7 +19,7 @@
 		"puppeteer": "^24.2.1"
 	},
 	"devDependencies": {
-		"@types/node": "^22.13.13",
+		"@types/node": "^22.14.1",
 		"@proximity/eslint-config": "workspace:*",
 		"@proximity/typescript-config": "workspace:*",
 		"@types/amqplib": "^0.10.7",
