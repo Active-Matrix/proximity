@@ -14,7 +14,7 @@
 		"@proximity/tailwind-config": "workspace:*",
 		"@proximity/ui": "workspace:*",
 		"@serwist/next": "^9.0.14",
-		"axios": "^1.7.9",
+		"axios": "^1.12.0",
 		"lucide-react": "^0.479.0",
 		"next": "15.3.3",
 		"nextjs-toploader": "^3.8.16",
