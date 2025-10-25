@@ -42,7 +42,7 @@
 | **🖥 [Web App](https://github.com/Active-Matrix/proximity/tree/main/apps/web)**                                | Next.js frontend with an intuitive UI                 |
 | **🕷 [Crawler Service](https://github.com/Active-Matrix/proximity/tree/main/services/crawler)**                | Cheerio-based lightweight web crawler                 |
 | **🔍 [Scraper Service](https://github.com/Active-Matrix/proximity/tree/main/services/scraper)**                | Puppeteer/Cheerio-powered message-driven scraper      |
-| **🧠 [TL;DR Service](https://github.com/Active-Matrix/proximity/tree/main/services/tldr)**                     | AI-powered summarization engine                       |
+| **🧠 [Summarization Service](https://github.com/Active-Matrix/proximity/tree/main/services/summarization)**                     | AI-powered summarization engine                       |
 | **🎯 [Recommendation Service](https://github.com/Active-Matrix/proximity/tree/main/services/recommendations)** | Personalized news recommendations                     |
 | **🔐 [Auth Service](https://github.com/Active-Matrix/proximity/tree/main/infra/k8s/ory-kratos)**               | Ory Hydra + Kratos for authentication & authorization |
 | **📖 Search Service [TODO]**                                                                                   | Full-text search powered by Elasticsearch             |
