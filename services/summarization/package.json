@@ -1,0 +1,33 @@
+{
+	"name": "summarization",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.ts",
+	"scripts": {
+		"dev": "nodemon",
+		"start": "node dist/index.js",
+		"build": "tsup"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@proximity/rabbitmq-config": "workspace:*",
+		"amqplib": "^0.10.8",
+		"dotenv": "^16.4.7",
+		"groq-sdk": "^0.34.0",
+		"pino": "^9.6.0",
+		"zod": "^3.25.76"
+	},
+	"devDependencies": {
+		"@proximity/eslint-config": "workspace:*",
+		"@proximity/typescript-config": "workspace:*",
+		"@types/amqplib": "^0.10.7",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2",
+		"tsup": "^8.4.0"
+	},
+	"tsupConfig": {
+		"tsconfig": "tsconfig.json"
+	}
+}
