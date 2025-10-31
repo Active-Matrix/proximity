@@ -14,7 +14,7 @@
 	"dependencies": {
 		"@proximity/rabbitmq-config": "workspace:*",
 		"amqplib": "^0.10.8",
-		"axios": "^1.8.2",
+		"axios": "^1.12.2",
 		"cheerio": "^1.0.0",
 		"puppeteer": "^24.2.1"
 	},
