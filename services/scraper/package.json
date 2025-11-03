@@ -35,7 +35,7 @@
 		"fastify": "^5.4.0",
 		"pino": "^9.6.0",
 		"pino-pretty": "^13.0.0",
-		"puppeteer": "^24.2.1",
+		"puppeteer": "^24.27.0",
 		"sanitize-html": "^2.14.0",
 		"xss": "^1.0.15",
 		"zod": "^3.24.1"
