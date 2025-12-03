@@ -16,7 +16,7 @@
 		"@serwist/next": "^9.0.14",
 		"axios": "^1.12.2",
 		"lucide-react": "^0.479.0",
-		"next": "15.3.3",
+		"next": "15.3.6",
 		"nextjs-toploader": "^3.8.16",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
